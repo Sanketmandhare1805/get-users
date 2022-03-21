@@ -1,0 +1,62 @@
+.getbutton{
+  float: right;
+  background: red;
+  color: white;
+  border: none;
+  padding:10px;
+  margin-right: 150px;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+button:hover{
+  background: green;
+}
+h1{
+  color: rgb(0, 0, 0);
+  padding-left: 15px;
+}
+.App p{
+  color:rgb(187, 6, 105);
+  font-size: large;
+  padding-left: 15px;
+}
+body{
+  background: aquamarine;
+    min-height: 100vh;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.card{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap:1rem;
+  margin-left: 80px;
+}
+
+@media(min-width:600px){
+  .card{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  border: 3px solid rgb(0, 0, 0);
+  
+}
+
+h2{
+  text-align: center;
+  color: black;
+  text-decoration:bold;
+}
+ul{
+  list-style-type: none;
+}
